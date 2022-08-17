@@ -3,6 +3,9 @@
     "name": "testeAgro",
     "slug": "testeAgro",
     "version": "1.0.0",
+    "android": {
+      "versionCode": 1
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
