@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Colors from './src/styles/Colors';
 import Calculator from './src/Screens/Calculator'
 export default function App() {
 
@@ -15,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.light,
+    backgroundColor: '#F1F2F3',
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
