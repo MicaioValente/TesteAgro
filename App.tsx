@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyleSheet } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Calculator from './src/Screens/Calculator'
-export default function App() {
+import Calculator from './src/Screens/Calculator';
 
+export default function App() {
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: 'black' }]}>
       <Calculator />

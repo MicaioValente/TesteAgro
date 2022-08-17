@@ -2,7 +2,6 @@ import * as React from "react";
 import Button from "./Button";
 import * as S from './styles'
 
-
 export default function MyKeyboard() {
   const [firstNumber, setFirstNumber] = React.useState("");
   const [secondNumber, setSecondNumber] = React.useState("");

@@ -1,8 +1,5 @@
 import { RFValue } from "react-native-responsive-fontsize";
 import styled from "styled-components/native";
-import { Button } from "@react-native-material/core";
-
-
 
 export const Container = styled.View`
     flex: 1;
@@ -56,8 +53,6 @@ export const SmallText = styled.Text`
     font-size: ${RFValue(32)}px;
     color: #fff;
 `
+
 export const ContainerButtom = styled.View`
-    /* height: ${RFValue(72)}px;
-    width: ${RFValue(72)}px; */
-    /* background-color: #fff5; */
 `
